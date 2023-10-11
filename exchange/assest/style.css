@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(50, 94, 214);
+}
+
+
+.card{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 270px;
+  margin: 30px;
+  position: relative;
+  transition: 1s;
+    
+}
+.card:hover{
+
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.head{
+    margin: 10px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.num{
+font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+
+
+}
+
+ .icon{
+font-size: 30px;
+color: rgb(50, 94, 214);
+position: absolute;
+top: 10px;
+left: 230px;
+}
+
+.dif span{
+color: rgb(16, 212, 212);
+font-family: 'Open Sans', sans-serif;
+margin: 10px;
+
+}
+.dif p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+
+}
